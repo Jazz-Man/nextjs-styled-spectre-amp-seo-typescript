@@ -1,6 +1,6 @@
 import Layout from "./layout/Layout";
-export default () => (
-  <>
-    <Layout></Layout>
-  </>
-);
+export default () => {
+  return (<>
+    <Layout/></Layout>
+  </>)
+};
