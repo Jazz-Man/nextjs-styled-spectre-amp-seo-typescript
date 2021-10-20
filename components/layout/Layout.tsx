@@ -15,6 +15,19 @@ import {
   CardsStyles,
 } from "../../ui-styles/styles";
 
+interface LayoutProps {
+  navbarActions?: any,
+  navbarItems?: any,
+  sidebarItems?: any,
+  logoLink?: any,
+  sidebar?: any,
+  children?: any,
+  footer?: any,
+  title?: any,
+  titleAnchor?: any,
+  navbarToggle?: any,
+}
+
 export default ({
   navbarActions,
   navbarItems,
